@@ -6,7 +6,6 @@ pensize(2)
 bgcolor("black")
 h=0.5
 
-
 for i in range(200):
     c=colorsys.hsv_to_rgb(h, 1, 1)
     pencolor(c)
@@ -15,6 +14,4 @@ for i in range(200):
     lt(80)
     circle(5-i, 100)
     rt(100)
-
-
-
+    
